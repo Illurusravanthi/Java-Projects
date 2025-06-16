@@ -1,0 +1,16 @@
+package sarala.com;
+
+import java.util.Arrays;
+
+public class AlphabeticalOrder {
+
+	public static void main(String[] args) {
+		        String[] words = { "saru", "akshitha", "fruity", "bittu", "chinnu"};
+		        Arrays.sort(words);
+		        System.out.println("Strings in alphabetical order:");
+		        for (String word : words) {
+		            System.out.println(word);
+		        }
+	}
+
+}
